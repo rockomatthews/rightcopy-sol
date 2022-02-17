@@ -1,10 +1,3 @@
-@import '../../styles/colors.less';
-.metamask-icon {
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-image: url(/assets/metamask.svg);
-}
-
 .app-left {
   align-items: center;
   display: flex;
@@ -39,7 +32,7 @@ section.ant-layout {
 }
 
 section#main-layout.ant-layout {
-  background-color: @bg-color !important;
+  background-color: #000 !important;
   min-height: 100vh;
 
   span#static-header-gradient {
@@ -48,7 +41,7 @@ section#main-layout.ant-layout {
     height: 300px;
     width: 100%;
     left: 0;
-    background: linear-gradient(0, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+    background: #000;
   }
 
   span#static-end-gradient {
@@ -57,7 +50,7 @@ section#main-layout.ant-layout {
     height: 300px;
     width: 100%;
     left: 0;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+    background: #000;
   }
 
   #bg-gradient {
@@ -66,7 +59,7 @@ section#main-layout.ant-layout {
     width: 100%;
     left: 0;
     top: 510px;
-    background: linear-gradient(180deg, rgba(18, 18, 18, 0) 0%, @black-100 100%);
+    background: #000;
     display: none;
   }
 
@@ -77,9 +70,9 @@ section#main-layout.ant-layout {
     right: 0;
     left: 0;
     height: 708px;
-    background: linear-gradient(180deg, rgba(18, 18, 18, 0) 0%, @black-100 100%);;
+    background: #000;
     background-position: top left !important;
-    background-size: cover !important;
+    // background-size: cover !important;
     background-repeat: no-repeat !important;
     filter: blur(220px);
     clip-path: inset(0 0 0 0);

@@ -33,7 +33,7 @@ export const Banner = (props: {
 
   return (
     <>
-      <div id="mobile-banner">
+      {/* <div id="mobile-banner">
         <img className="banner-img" src={props.src} />
         <div className="banner-content">
           <div id={'main-heading'}>{props.headingText}</div>
@@ -59,7 +59,7 @@ export const Banner = (props: {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
