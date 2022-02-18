@@ -695,7 +695,7 @@ export const AuctionCard = ({
                   style={{
                     width: '100%',
                     background: '#242424',
-                    borderRadius: 14,
+                    // borderRadius: 14,
                     color: 'rgba(0, 0, 0, 0.5)',
                   }}
                 >

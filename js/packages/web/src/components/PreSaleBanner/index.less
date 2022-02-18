@@ -1,28 +1,27 @@
-
 .presale-container {
-  background-color: #B29995;
+  background-color: #b29995;
   background-repeat: no-repeat;
   background-position-y: center;
   min-height: 220px;
   margin-bottom: 1rem;
-  border-radius: 4px;
+  // border-radius: 4px;
   color: black;
   background-size: auto 240px;
 }
 
 .explore {
   display: flex;
-  padding: 10px
+  padding: 10px;
 }
 
 .explore .square {
+  max-width: 355px;
+  min-width: 355px;
+  border: 1px #303030 solid;
+  @media (max-width: 375px) {
     max-width: 355px;
     min-width: 355px;
-    border: 1px #303030 solid;
-    @media (max-width: 375px) {
-      max-width: 355px;
-      min-width: 355px;
-    }
+  }
 }
 
 .presale-title {
