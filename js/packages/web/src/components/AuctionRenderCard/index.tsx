@@ -6,8 +6,8 @@ import { AuctionView, useArt, useCreators } from '../../hooks';
 // import { MetaAvatar } from '../MetaAvatar';
 // import { AuctionCountdown } from '../AuctionNumbers';
 
-import { useAuctionStatus } from './hooks/useAuctionStatus';
-import { useTokenList } from '../../contexts/tokenList';
+// import { useAuctionStatus } from './hooks/useAuctionStatus';
+// import { useTokenList } from '../../contexts/tokenList';
 
 export interface AuctionCard extends CardProps {
   auctionView: AuctionView;
@@ -16,7 +16,7 @@ export interface AuctionCard extends CardProps {
 export const AuctionRenderCard = (props: AuctionCard) => {
   const { auctionView } = props;
   const id = auctionView.thumbnail.metadata.pubkey;
-  const art = useArt(id);
+  // const art = useArt(id);
   // const creators = useCreators(auctionView);
   // const name = art?.title || ' ';
 
